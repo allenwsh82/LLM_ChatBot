@@ -29,6 +29,10 @@ Inference example snapshot:
 
 ![llama3_8b_inference](https://github.com/user-attachments/assets/23c7d358-3fee-4380-9599-c0faef6faafc)
 
-   
+9) If you want to further optimize the inference performance, just quatize the model to INT4 easily with Intel ipex-llm. 
+   python inference_llama3_8b_INT4_IPEX_LLM.py
+
+<img width="512" alt="ipex-llm_llama3-8b" src="https://github.com/user-attachments/assets/b226ae9d-bdf7-4ad8-b699-3c6e3e890c40">
+
 
    
