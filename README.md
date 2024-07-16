@@ -14,6 +14,8 @@ Steps to run this demo:
 6) Now you have setup everything and you can run the script:
    python inference_llama3_8b_bf16_ipex.py
 
+Inference example snapshot:
+
 ![llama3_8b_inference](https://github.com/user-attachments/assets/23c7d358-3fee-4380-9599-c0faef6faafc)
 
    
