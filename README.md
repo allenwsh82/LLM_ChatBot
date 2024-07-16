@@ -34,7 +34,7 @@ Inference example snapshot:
 
 Inference example snapshot:
 
-<img width="512" alt="ipex-llm_llama3-8b" src="https://github.com/user-attachments/assets/244f1606-7a23-4d19-acdc-8cf16e8d1e3b">
+![ipex-llm_llama3-8b](https://github.com/user-attachments/assets/6e12b530-da5e-480d-b0f2-07b41f413512)
 
 
 
