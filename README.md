@@ -13,14 +13,14 @@ Steps to run this demo:
 5) Install the dependencies by running: pip install -r requirements.txt
 6) If you go to the inference_llama3_8b_bf16_ipex.py script, you will notice where two lines of code are added to enable AMX AI Accelerator to boost up performance:
 
-###############################################################################################################
+###########################################################################################################
 #Use IPEX
 
 import intel_extension_for_pytorch as ipex
 
 model = ipex.optimize(model.eval(), dtype=torch.bfloat16, inplace=True, level="O1", auto_kernel_selection=True)
 
-###############################################################################################################
+###########################################################################################################
    
 8) Now you have setup everything and you can run the script:
    python inference_llama3_8b_bf16_ipex.py
