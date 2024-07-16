@@ -6,7 +6,8 @@ import intel_extension_for_pytorch as ipex
 import time
 from time import perf_counter
 
-model_id = "/home/smgailab/data1/AI_Allen/model/Meta-Llama-3-8B-Instruct"
+#Make sure you download and set the correct path for the Llama-3-8B-Instruct that you downloaded
+model_id = "/home/smgailab/data1/AI_Allen/model/Meta-Llama-3-8B-Instruct"  
 
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = AutoModelForCausalLM.from_pretrained(
