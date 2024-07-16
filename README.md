@@ -32,7 +32,12 @@ Inference example snapshot:
 9) If you want to further optimize the inference performance, just quatize the model to INT4 easily with Intel ipex-llm. 
    python inference_llama3_8b_INT4_IPEX_LLM.py
 
-<img width="512" alt="ipex-llm_llama3-8b" src="https://github.com/user-attachments/assets/b226ae9d-bdf7-4ad8-b699-3c6e3e890c40">
+Inference example snapshot:
+
+<img width="512" alt="ipex-llm_llama3-8b" src="https://github.com/user-attachments/assets/244f1606-7a23-4d19-acdc-8cf16e8d1e3b">
+
+
+
 
 
    
