@@ -19,6 +19,8 @@ model = AutoModelForCausalLM.from_pretrained(
 ###############################################################################################################
 #Use IPEX
 
+import intel_extension_for_pytorch as ipex
+
 model = ipex.optimize(model.eval(), dtype=torch.bfloat16, inplace=True, level="O1", auto_kernel_selection=True)
 
 ###############################################################################################################
