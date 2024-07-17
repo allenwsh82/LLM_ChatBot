@@ -7,7 +7,7 @@ import time
 from time import perf_counter
 
 #Make sure you download and set the correct path for the Llama-3-8B-Instruct that you downloaded
-model_id = "/home/smgailab/data1/AI_Allen/model/Meta-Llama-3-8B-Instruct"  
+model_id = "NousResearch/Meta-Llama-3-8B-Instruct"  
 
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = AutoModelForCausalLM.from_pretrained(
