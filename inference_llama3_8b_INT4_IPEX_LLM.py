@@ -27,6 +27,11 @@ model = optimize_model(model)
 
 streamer = TextStreamer(tokenizer)
 
+print("This Demo is Powered by Intel Xeon 5th Gen 8592+ on Intel Tiber Developer Cloud")
+print()
+prompt=input("Please enter your prompt: ")
+print()
+
 messages = [
     {"role": "system", "content": "You are a helpful AI assistant for travel tips and recommendations"},
     {"role": "user", "content": "Help me to plan for a trip to Taiwan"},
