@@ -1,7 +1,7 @@
-from transformers import AutoTokenizer, TextStreamer
+from transformers import AutoTokenizer, TextStreamer, AutoModelForCausalLM
 import torch
 import transformers
-from intel_extension_for_transformers.transformers import AutoModelForCausalLM
+#from intel_extension_for_transformers.transformers import AutoModelForCausalLM
 import intel_extension_for_pytorch as ipex
 import time
 from time import perf_counter
