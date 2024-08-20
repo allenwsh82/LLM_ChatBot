@@ -34,7 +34,7 @@ print()
 
 messages = [
     {"role": "system", "content": "You are a helpful AI assistant for travel tips and recommendations"},
-    {"role": "user", "content": "Help me to plan for a trip to Taiwan"},
+    {"role": "user", "content": prompt},
 ]
 
 input_ids = tokenizer.apply_chat_template(
