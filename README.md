@@ -2,9 +2,9 @@
 
 ![llama3-8b](https://github.com/user-attachments/assets/d29699f8-e9d2-43b9-912a-cdf9c40c22f6)
 
-Complete instruction on how to run python script on running Meta-Llama-3-8B-Instruct with Intel Xeon 4th Gen and Newer with IPEX
+**Complete instruction on how to run python script on running Meta-Llama-3-8B-Instruct with Intel Xeon 4th Gen and Newer with IPEX**
 
-Steps to run this demo:
+**Steps to run this demo:**
 1) Clone this project into your local directory:
    git clone https://github.com/allenwsh82/LLM_ChatBot.git
    
